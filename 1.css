@@ -40,3 +40,18 @@ img{
     border: 3px solid rgb(253, 234, 211);
     border-radius: 15px;
 }
+
+
+@media(max-width: 768px){
+    #left,#right{
+        width: 75vw;
+        font-size: 5.5vw;
+    }
+    img{
+        width: 70vw;
+    }
+    #top-menu{
+        width: 80vw;
+        font-size: 6.5vw;
+    }
+}
