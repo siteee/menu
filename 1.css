@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 35px;
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    letter-spacing: 15px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#top-menu{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#left,#right{
+    width: 40vw;
+    display: inline-block;
+    background-color: rgb(255, 209, 152);
+}
+
+
+img{
+    width: 40vw;
+    height: 350px;
+
+    border: 2px solid rgb(240, 207, 166);
+    border-radius: 15px 5px 40px 0;
+}
+
+
+.item{
+    margin: 5vw;
+    border: 3px solid rgb(253, 234, 211);
+    border-radius: 15px;
+}
